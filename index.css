@@ -1,0 +1,35 @@
+#list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+li:nth-child(1) {
+  background-color: hsl(0, 50%, 80%); /* Red */
+}
+li:nth-child(2) {
+  background-color: hsl(80, 70%, 80%); /* Yellow */
+}
+li:nth-child(3) {
+  background-color: hsl(160, 50%, 80%); /* Green */
+}
+li:nth-child(4) {
+  background-color: hsl(220, 50%, 80%); /* Blue */
+}
+li:nth-child(5) {
+  background-color: hsl(280, 50%, 80%); /* Purple */
+}
+
+/* Appearance */
+
+#list {
+  list-style: none;
+  padding: 0;
+}
+
+#list li {
+  width: 150px;
+  height: 150px;
+  border: 1px solid hsl(240, 50%, 20%);
+}
